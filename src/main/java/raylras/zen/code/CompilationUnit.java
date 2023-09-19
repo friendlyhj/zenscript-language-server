@@ -81,7 +81,7 @@ public class CompilationUnit implements SymbolProvider {
         return symbolProperties.values();
     }
 
-    public Collection<Symbol> getTopLevelSymbols() {
+    public List<Symbol> getTopLevelSymbols() {
         return getScope(parseTree).getSymbols();
     }
 

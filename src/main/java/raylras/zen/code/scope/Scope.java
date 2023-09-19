@@ -5,7 +5,6 @@ import raylras.zen.code.SymbolProvider;
 import raylras.zen.code.symbol.Symbol;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 
@@ -69,7 +68,7 @@ public class Scope implements SymbolProvider {
     }
 
     @Override
-    public Collection<Symbol> getSymbols() {
+    public List<Symbol> getSymbols() {
         return symbols;
     }
 
